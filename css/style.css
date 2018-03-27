@@ -1,0 +1,39 @@
+#slider {
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+	height: 300px;
+	border: 2px solid red;
+	overflow: hidden;
+	position: relative;
+}
+#slider ul {
+	width: 3600px;
+    margin: 0;
+  	padding: 0;
+  	border: 0;
+}
+#slider li {
+	overflow:0;
+	list-style-type: none;
+	width: 600px;
+	height: 300px;
+	float: left;
+}
+.prev, .next {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	transform: translate(0, -50%);
+	margin: 0;
+	top: 50%;
+	padding: 0;
+}
+.next {
+	left: 560px;
+}
+.prev {
+	right: 560px;
+}
